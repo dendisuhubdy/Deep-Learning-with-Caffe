@@ -157,11 +157,11 @@ Awesome! We are almost there. We just need to test whether everything went fine.
 
 If you succeed in all the tests then you've successfully installed Caffe in your system ! One good reason to smile !
 
-Finally, we need to add the correct path to our installed modules. Using your favourite text editor, add the following to the <b>.bashrc</b> file in your <b>/home/user/</b> folder for Caffe to work properly.
+Finally, we need to add the correct path to our installed modules. Using your favourite text editor, add the following to the <b>.bashrc</b> file in your <b>/home/user/</b> folder for Caffe to work properly. Please make sure you replace the < username > with your system's username.
 
 ```
 #Anaconda if not present already
-export PATH=/home/cc/anaconda2/bin:$PATH
+export PATH=/home/<username>/anaconda2/bin:$PATH
 #Caffe Root
 export CAFFE_ROOT=/home/<username>/caffe/
 export PYTHONPATH=/home/<username>/caffe/distribute/python:$PYTHONPATH
@@ -376,7 +376,7 @@ Awesome! We are almost there. We just need to test whether everything went fine.
 
 If you succeed in all the tests then you've successfully installed Caffe in your system ! One good reason to smile !
 
-Finally, we need to add the correct path to our installed modules. Using your favourite text editor, add the following to the <b>.bashrc</b> file in your <b>/home/user/</b> folder for Caffe to work properly.
+Finally, we need to add the correct path to our installed modules. Using your favourite text editor, add the following to the <b>.bashrc</b> file in your <b>/home/user/</b> folder for Caffe to work properly. Please make sure you replace the < username > with your system's username.
 
 ```
 # Caffe Root
