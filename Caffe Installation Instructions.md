@@ -181,7 +181,7 @@ Open Python and type:
 You should be able to successfully load caffe.
 Now let's start coding :)
 
-# 1. Caffe without installing Anaconda
+# 2. Caffe without installing Anaconda
 
 By preference, if you don't want to install Anaconda in your system, you can install Caffe by following the steps below. As mentioned earlier, installing all the dependencies can be difficult. If this tutorial does not work for you, please look into the errors, use our trusted friends.
 
@@ -342,9 +342,12 @@ Go into the caffe folder and copy and rename the Makefile.config.example file to
     cp Makefile.config.example Makefile.config
 
 Great ! Now go ahead and open the Makefile.config in your favourite text editor (vi or vim or gedit or ...). Change the following:
-
 ```
+1. Uncomment (No space in the beginning): 
+    CPU_ONLY := 1
 
+2. Uncomment:
+    USE_PKG_CONFIG := 1
 ```
 
 We will install the packages listed in Caffe's requirements.txt file as well; just in case.
