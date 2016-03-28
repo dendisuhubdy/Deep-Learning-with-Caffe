@@ -331,6 +331,10 @@ We will now install some more crucial dependencies of Caffe
 
     sudo pip install protobuf
 
+Installing Pydot will be beneficial to view our net by saving it off in an image file.
+    
+    sudo apt-get install python-pydot
+
 Now that all the dependencies are installed, we will go ahead and download the Caffe installation files. Go ahead and run:
 
     git clone https://github.com/BVLC/caffe
