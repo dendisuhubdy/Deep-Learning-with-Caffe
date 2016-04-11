@@ -239,7 +239,7 @@ Go ahead and run the following lines:
 
 The 'build-essential' ensures that we have the compilers ready. Now we will install some required packages. Run:
 
-    sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+    sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev unzip
 
 We will install some optional packages as well. Run:
 
