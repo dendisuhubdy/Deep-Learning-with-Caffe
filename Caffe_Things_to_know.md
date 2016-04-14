@@ -1,6 +1,6 @@
 # Caffe: Things to know to train your network
 1. **Data Injestion and Preprocessing**
- * Data Injestion formats
+ * **Data Injestion formats**
     * Level DB or LMDB database.
     * Datat in memory (C++ or Python).
     * HDF5 formated data.
