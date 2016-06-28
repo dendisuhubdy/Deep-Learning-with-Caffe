@@ -43,7 +43,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/opencv/lib
 #####Install Cython
 ```
 cd ~
-wget http://cython.org/release/Cython-0.23.4.zip
+wget https://pypi.python.org/packages/0a/b6/fd142319fd0fe83dc266cfe83bfd095bc200fae5190fce0a2482560acb55/Cython-0.23.4.zip#md5=84c8c764ffbeae5f4a513d25fda4fd5e
 unzip Cython-0.23.4.zip
 cd Cython-0.23.4
 sudo python setup.py install
