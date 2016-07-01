@@ -2,7 +2,7 @@
 1. **Data Injestion and Preprocessing**
  * **Data Injestion formats**
     * Level DB or LMDB database.
-    * Datat in memory (C++ or Python).
+    * Data in memory (C++ or Python).
     * HDF5 formated data.
     * Image files.
  * **Preprocessing Tools**
