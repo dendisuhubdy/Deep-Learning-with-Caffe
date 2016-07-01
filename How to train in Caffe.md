@@ -5,7 +5,7 @@ The main files, apart from the dataset, required to train your network are the m
 
 The model definition file defines the architecture of your neural net. The number of layers and its descriptions are to be written in them. The solver definition file is where you specify the learning rate, momentum, snapshot interval and a whole host of other key parameters required for training and testing your neural network. Please view the [Caffe: Things to know to train your network](https://github.com/arundasan91/Caffe/blob/master/Caffe_Things_to_know.md) file for more info. 
 
-The data is as important as anything else and is to be preprocessed to one of the formats recognized by Caffe. lmdb formats works well with Caffe. Caffe also support hdf5 formated data and image files. If the data you want the neural net to be trained on is not a Caffe default, you can write your own Class for the respective type and include the proper layer.
+Data is as important as the algorithm and the model and is to be preprocessed to one of the formats recognized by Caffe. LMDB formats works well with Caffe. Caffe also support HDF5 formated data and image files. If the model is to be trained on a dataset unrecognized by Caffe, you can write your own class for the respective type and include the proper layer.
 
 Once you have the Data, ModelParameter and SolverParameter files, you can train it by going into caffe root directory and executing the following command:
 
