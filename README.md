@@ -9,13 +9,3 @@ More information on Caffe can be found in these files:
 2. [Things to know while training your first net](https://github.com/arundasan91/Deep-Learning-in-Caffe/blob/master/Caffe_Things_to_know.md)
 
 3. [How to properly setup ImageNet dataset for training the ImageNet model in Caffe](https://github.com/arundasan91/Deep-Learning-in-Caffe/blob/master/Imagenet/How-to-properly-set-up-Imagenet-Dataset.md)
-
-I am planning to add more content on:
-
-1. Training Comvolutional Neural Networks with CIFAR10 dataset.
-
-2. Training on GPU and benchmarking.
-
-3. Cloud Services for Machine Learning.
-
-4. Training Reccurent Neural Networks using Caffe.
