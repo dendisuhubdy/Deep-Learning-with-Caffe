@@ -4,7 +4,7 @@
 
 <b>W</b>ith the availability of huge amount of data for research and powerfull machines to run your code on, Machine Learning and Neural Networks is gaining their foot again and impacting us more than ever in our everyday lives. With huge players like Google opensourcing part of their Machine Learning systems like the TensorFlow software library for numerical computation, there are many options for someone interested in starting off with Machine Learning/Neural Nets to choose from. Caffe, a deep learning framework developed by the Berkeley Vision and Learning Center (BVLC) and its contributors, comes to the play with a fresh cup of coffee.
 
-# Installation Instructions (Ubuntu 14 Trusty)
+# Installation Instructions (Ubuntu 14 Trusty) - Pretty old instructions. Please request if you need a new version.
 
 The following section is divided in to two parts. Caffe's [documentation]( http://caffe.berkeleyvision.org/installation.html "Caffe Installation Instruction") suggests you to install [Anaconda](https://www.continuum.io/why-anaconda "Anaconda") Python distribution to make sure that you've installed necessary packages, with ease. If you're someone who do not want to install Anaconda in your system for some reason, I've covered that too. So in the first part you'll find information on <i><b> [how to install Caffe with Anaconda](#1.-Caffe-+-Anaconda)</i></b> and in the second part you'll find the information for <i><b> installing Caffe without Anaconda </i></b>.
 
